@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Group Scheduler</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Group Scheduler</h1>
+    </header>
+    <main>
+        <section id="schedule">
+            <h2>Schedule a Meeting</h2>
+            <form id="scheduleForm">
+                <label for="meetingTitle">Meeting Title:</label>
+                <input type="text" id="meetingTitle" name="meetingTitle" required>
+                
+                <label for="meetingDate">Date:</label>
+                <input type="date" id="meetingDate" name="meetingDate" required>
+                
+                <label for="meetingTime">Time:</label>
+                <input type="time" id="meetingTime" name="meetingTime" required>
+                
+                <label for="participants">Participants:</label>
+                <input type="text" id="participants" name="participants" placeholder="Enter emails separated by commas" required>
+                
+                <button type="submit">Schedule</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Group Scheduler. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
